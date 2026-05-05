@@ -1,0 +1,72 @@
+![Introducción a PHP con iconos educativos de programación y texto Tema 1 en un diseño informativo](../img/IntroduccionPhp_tema1.png "Tema 1")
+
+## Comentarios
+
+Son notas dentro del código que el servidor ignora por completo; sirven para explicar, documentar o aclarar qué hace el programa.
+
+Una sola línea: Se usan dos barras // o una almohadilla #.
+
+Varias líneas: Se encierran entre /* y */.
+
+## Variables
+
+Variable : Son "contenedores" para datos que pueden cambiar durante la ejecución.
+
+Siempre empiezan con el signo de peso ($) seguido del nombre (ejemplo: "$edad = 25;")
+
+## Constantes
+
+Son valores fijjos que NO pueden modificarse ni eliminarse una vez definidos.
+
+Se crean usando la función **define ()** o la palabra clave **const**, y a diferencia de las variables, no llevan el signo $ antes de su nombre 
+
+## Arrays y Arrays Asociativos
+Un array permite almacenar múltiples valores en una sola variable, funcionando como una lista potente.
+
+Arrays (Indexados): Los datos se organizan por posiciones numéricas (índices), que automáticamente empiezan desde el 0.
+Por ejemplo, en una lista de frutas, la primera sería la posición 0, la segunda la 1, y así sucesivamente.
+
+Arrays Asociativos: En lugar de usar números, utilizas nombres o "claves" personalizadas para guardar y encontrar los datos.
+
+Se escriben en formato clave → valor (ejemplo: "nombre" => "Ana"). 
+
+Son ideales cuando quieres asociar etiquetas con significado a los valores, como los detalles de un usuario.
+
+## Operadores 
+ - Arítmetcos
+    1. Suma: (+) $a + $b
+    2. Resta: (-) $a - $b
+    3. Multiplicación: (*) $a * $b
+    4. División: (/) $a / $b
+    5. Módulo (residuo): (%) $a % $b
+    6. Potencia: (**) $a ** $b
+
+ - Asignación
+    1. Igual: (=) $a = 5
+    2. Más igual: (+=) $a += 3
+    3. Menos igual: (-=) $a -= 2
+    4. Por igual: (*=) $a *= 4
+    5. Dividido igual: (/=) $a /= 2
+    6. Residuo igual: (%=) $a %= 3
+
+ - Comparación
+    1. Igual: (==) $a == $b
+    2. Igual estricto: (===) $a === $b
+    3. Diferente: (!=) $a != $b
+    4. Diferente (alternativo): (<>) $a <> $b
+    5. Diferente estricto: (!==) $a !== $b
+    6. Mayor que: (>) $a > $b
+    7. Menor que: (<) $a < $b
+    8. Mayor o igual: (>=) $a >= $b
+    9. Menor o igual: (<=) $a <= $b
+
+ - Logicos
+    1. AND: (&&) $a && $b
+    2. OR: (||) $a || $b
+    3. NOT: (!) !$a
+
+ - Incremento/ decremento 
+    1. Incremento previo: (++$a)
+    2. Incremento posterior: ($a++)
+    3. Decremento previo: (--$a)
+    4. Decremento posterior: ($a--)
